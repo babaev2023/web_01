@@ -35,6 +35,8 @@ aside .nav {
 
 aside ul {list-style: none}
 
+
+
 aside ul li {
     color: #fff;
     display: block;
@@ -65,10 +67,44 @@ main .features {
 }
 
 main .features h1 {
- font-size: 50px;
+ font-size: 40px;
 }
 
 main .features p {max-width: 400px;margin: 20px auto}
+
+main .features_doc {
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+    text-align: left;
+    width: 75%;
+}
+
+main .features_doc h1 {
+ font-size: 50px;
+}
+
+main .features_doc p {margin: 20px 10px 10px 10px}
+
+main .features_doc a {text-decoration: none}
+
+main .features_detail {
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+    text-align: left;
+    width: 75%;
+}
+
+main .features_detail h1 {
+ font-size: 50px;
+}
+
+main .features_detail p {margin: 20px 10px 10px 10px}
+
+main .features_detail a {text-decoration: none}
+
+
 
 .alert-warning {
     float: left;
@@ -77,3 +113,19 @@ main .features p {max-width: 400px;margin: 20px auto}
     margin: 20px 30%;
     text-align: left;
 }
+
+.detail {
+    float: left;
+    clear: both;
+    width: 1000px;
+    margin: 20px 30%;
+    text-align: left;
+}
+
+form{
+margin-left: 50px;
+width: 500px;
+margin-top: 50px;
+}
+
+

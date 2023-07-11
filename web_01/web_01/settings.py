@@ -24,6 +24,7 @@ except ImportError:
 INSTALLED_APPS = [
     'main',
     'news',
+    'incident',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

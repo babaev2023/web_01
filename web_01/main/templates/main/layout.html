@@ -19,10 +19,13 @@
         <span class="logo">Web_01</span>
         <p class="nav">Навигация:</p>
         <ul>
-            <a href="{% url 'home'%}"><li><i class="fas fa-home"></i>Main</li></a>
-            <a href="{% url 'about'%}"><li><i class="fas fa-address-card"></i>About</li></a>
-            <a href="{% url 'news'%}"><li><i class="fas fa-newspaper"></i>News</li></a>
-            {# <a href=""><li><i class="fas fa-address-book"></i>Contact</li></a> #}
+            <a href="{% url 'home'%}"><li><i class="fas fa-home"></i>Главная страница</li></a>
+            <a href="{% url 'doc'%}"><li><i class="fas fa-address-card"></i>Документы</li></a>
+            <a href="{% url 'news'%}"><li><i class="fas fa-newspaper"></i>Новости</li></a>
+            <a href="{% url 'incident'%}"><li><i class="fas fa-address-book"></i>Инциденты</li></a>
+            <br>
+            <a href="{% url 'create'%}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Сообщить об инциденте</button></li></a>
+
         </ul>
 
 

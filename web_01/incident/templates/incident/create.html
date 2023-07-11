@@ -1,0 +1,22 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Форма: Сообщить об инциденте{% endblock %}
+
+{% block content %}
+ <div class="features">
+   <h1>Форма: Сообщить об инциденте</h1>
+
+     <form method="post" class="form">
+         {% csrf_token%}
+         {{ form.tip }} <br>
+         {{ form.contact }} <br>
+         {{ form.full_text_incident }} <br>
+         {{ form.date }} <br>
+         <span>{{ error }}</span><br>
+
+            <button class="btn btn-success" type="submit">Сообщить об инциденте</button>
+     </form>
+
+ </div>
+{% endblock %}
+

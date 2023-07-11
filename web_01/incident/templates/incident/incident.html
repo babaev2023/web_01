@@ -1,0 +1,26 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Сообщить об инциденте{% endblock %}
+
+{% block content %}
+ <div class="features">
+   <h1>Сообщить об инциденте: </h1>
+
+
+            <div class="alert alert-warning">
+                <h3>Если вам известно, сообщите нам:</h3>
+                <p>Заполнив информацию в форме обратной связи. Специалисты рассмотрят обращение.</p>
+                <a href="{% url 'create'%}"><button class="btn btn-danger"> Сообщить об инциденте!!!</button></a>
+            </div>
+
+
+
+
+
+
+
+
+
+ </div>
+{% endblock %}
+

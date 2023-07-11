@@ -6,6 +6,8 @@ class Articles(models.Model):
         full_text = models.TextField('Новость')
         date = models.DateTimeField('Дата публикации')
 
+
+
         def __str__(self):
             return self.title
 
